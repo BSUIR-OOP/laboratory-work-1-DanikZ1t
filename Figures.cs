@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LabWork1
 {
-    class ListArr
+    class ListFig
     {
         public static List<Figure> list = new List<Figure>()
             {
@@ -37,31 +37,11 @@ namespace LabWork1
 
         }
 
-        public double getx1()
-        {
-            return x1;
-        }
-        public double getx2()
-        {
-            return x2;
-        }
-        public double gety1()
-        {
-            return y1;
-        }
-        public double gety2()
-        {
-            return y2;
-        }
-
-        public string getname()
-        {
-            return fname;
-        }
+        
 
         public virtual void Print()
         {
-            Console.WriteLine($"({getx1()}, {getx2()}, {gety1()}, {gety2()}) - {getname()}");
+            Console.WriteLine($"({this.x1}, {this.x2}, {this.y1}, {this.y2}) - {this.fname}");
         }
     }
 
