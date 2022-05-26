@@ -7,7 +7,7 @@ namespace LabWork1
         static void Main(string[] args)
         {
 
-            foreach (Figure ourfigures in ListFig.list) {
+            foreach (Figure ourfigures in ListFig.listfig) {
                 ourfigures.Print();                
             }
         }

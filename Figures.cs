@@ -7,7 +7,7 @@ namespace LabWork1
 {
     class ListFig
     {
-        public static List<Figure> list = new List<Figure>()
+        public static List<Figure> listfig = new List<Figure>()
             {
             new Hexagon(15, 20, 25, 30),
             new Rhombus(12,18,22,26),
