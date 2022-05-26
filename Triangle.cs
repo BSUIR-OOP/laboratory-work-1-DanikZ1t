@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LabWork1
 {
-    class Triangle : Figures
+    class Triangle : Figure
     {
         public Triangle(double x1, double x2, double y1, double y2) : base(x1, x2, y1, y2)
         {

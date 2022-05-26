@@ -4,9 +4,9 @@ using System.Text;
 
 namespace LabWork1
 {
-    class hexagon : Figures 
+    class Hexagon : Figure
     {
-        public hexagon(double x1, double x2, double y1, double y2) : base(x1, x2, y1, y2) { 
+        public Hexagon(double x1, double x2, double y1, double y2) : base(x1, x2, y1, y2) { 
         
         }
        
@@ -14,8 +14,7 @@ namespace LabWork1
     public override void Print()
         {
             Console.WriteLine("Hexagon output");
-            base.Print();
-            
+            base.Print();           
         }
     }
 }
